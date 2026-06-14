@@ -130,30 +130,67 @@ function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      {menuOpen && (
-        <div className="md:hidden bg-[#0d0d0d]/95 border-t border-white/10 px-6 py-4 flex flex-col gap-4">
+      {/* Mobile Menu — slide down animation, no borders, spaced links */}
+      <div
+        style={{
+          overflow: 'hidden',
+          maxHeight: menuOpen ? '400px' : '0px',
+          transition: 'max-height 0.4s ease',
+          backgroundColor: '#0d0d0d',
+        }}
+      >
+        <div style={{ padding: '16px 32px 32px 32px', display: 'flex', flexDirection: 'column', gap: '0px' }}>
           {navLinks.map((link) => (
             <a
               key={link.label}
               href={link.href}
               onClick={(e) => scrollToSection(e, link.href)}
-              className="text-white/60 hover:text-white text-[11px] tracking-[2px] transition-all duration-300 py-1 border-b border-white/5"
-              style={{ fontFamily: "Georgia, serif" }}
+              style={{
+                fontFamily: 'Georgia, serif',
+                fontSize: '16px',
+                color: 'rgba(255,255,255,0.75)',
+                textDecoration: 'none',
+                padding: '14px 0',
+                letterSpacing: '2px',
+                border: 'none',
+                transition: 'color 0.2s',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = '#c8a96e'
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = 'rgba(255,255,255,0.75)'
+              }}
             >
               {link.label}
             </a>
           ))}
+          
           <a
             href="#inquiry"
-            onClick={(e) => scrollToSection(e, "#inquiry")}
-            className="text-white text-[11px] tracking-[2px] px-5 py-2.5 border border-white/40 text-center hover:bg-white hover:text-[#0d0d0d] transition-all duration-300"
-            style={{ fontFamily: "Georgia, serif" }}
+            onClick={(e) => scrollToSection(e, '#inquiry')}
+            style={{
+              fontFamily: 'Georgia, serif',
+              fontSize: '16px',
+              color: 'rgba(255,255,255,0.75)',
+              textDecoration: 'none',
+              padding: '14px 0',
+              letterSpacing: '2px',
+              border: 'none',
+              marginTop: '4px',
+              transition: 'color 0.2s',
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.color = '#c8a96e'
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.color = 'rgba(255,255,255,0.75)'
+            }}
           >
             CONTACT US
           </a>
         </div>
-      )}
+      </div>
     </nav>
   );
 }
