@@ -45,7 +45,7 @@ function Navbar() {
           alignItems: 'center',
           justifyContent: 'space-between',
           height: '90px',
-          padding: '0 80px',
+          padding: '0 24px',
         }}
       >
         {/* Logo + Name */}

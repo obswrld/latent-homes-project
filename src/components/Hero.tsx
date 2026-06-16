@@ -11,17 +11,19 @@ function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-[#0d0d0d]/50 to-[#0d0d0d]/20" />
 
       {/* Center branding */}
-      <div className="relative z-10 flex flex-col items-center text-center">
+      <div className="relative z-10 flex flex-col items-center text-center w-full px-4">
         {/* LH Logo */}
         <img
           src="/images/logo.png"
           alt="Latent Homes Logo"
           style={{
-            width: '280px',
-            height: '280px',
+            width: '200px',
+            height: '180px',
             objectFit: 'contain',
             marginBottom: '-80px',
-            marginTop: '80px',
+            display: 'block',
+            marginLeft: 'auto',
+            marginRight: 'auto',
           }}
         />
 
