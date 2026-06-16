@@ -12,34 +12,26 @@ function Hero() {
 
       {/* Center branding */}
       <div className="relative z-10 flex flex-col items-center text-center">
-        {/* LH Monogram */}
-        <div
-          className="font-black leading-none mb-4 select-none"
+        {/* LH Logo */}
+        <img
+          src="/images/logo.png"
+          alt="Latent Homes Logo"
           style={{
-            fontSize: "120px",
-            background:
-              "linear-gradient(180deg, #f5e27a 0%, #c8a96e 40%, #8b6914 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-            fontFamily: "Georgia, serif",
-            letterSpacing: "-4px",
+            width: '280px',
+            height: '280px',
+            objectFit: 'contain',
+            marginBottom: '-80px',
+            marginTop: '80px',
           }}
-        >
-          LH
-        </div>
+        />
 
         {/* Company name */}
         <h2
           className="font-black tracking-[10px] mb-4"
           style={{
-            fontSize: "24px",
-            background:
-              "linear-gradient(180deg, #f5e27a 0%, #c8a96e 40%, #8b6914 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-            fontFamily: "Georgia, serif",
+            fontSize: '24px',
+            color: '#c8a96e',
+            fontFamily: 'Georgia, serif',
           }}
         >
           LATENT HOMES
