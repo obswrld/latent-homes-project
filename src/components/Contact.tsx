@@ -78,7 +78,7 @@ const channels = [
   },
   {
     label: "Email",
-    value: "info@latenthomes.com",
+    value: "latenthomes1@gmail.com",
     href: `mailto:${contactConfig.email}`,
     isCustom: false,
     icon: Mail,
