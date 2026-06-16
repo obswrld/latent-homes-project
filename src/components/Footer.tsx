@@ -105,7 +105,7 @@ function Footer() {
               marginBottom: "20px",
             }}
           >
-            <span
+            {/*<span
               style={{
                 fontFamily: "Georgia, serif",
                 fontSize: "20px",
@@ -119,7 +119,12 @@ function Footer() {
               }}
             >
               LH
-            </span>
+            </span>*/}
+            <img
+              src="/images/logo.png"
+              alt="Latent Homes Logo"
+              style={{ width: '120px', height: '120px', objectFit: 'contain', marginTop: '20px' }}
+            />
             <span
               style={{
                 fontFamily: "Georgia, serif",
@@ -129,7 +134,7 @@ function Footer() {
                 letterSpacing: "2px",
               }}
             >
-              Latent <span style={{ color: "#c8a96e" }}>Homes</span>
+              Latent <span style={{ color: "#c8a96e", paddingLeft:'-49px' }}>Homes</span>
             </span>
           </div>
 
