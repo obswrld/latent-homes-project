@@ -12,6 +12,7 @@ export interface ContactConfig {
   whatsapp: string
   facebook: string
   instagram: string
+  tiktok: string  
   phone: string
   email: string
   address: string

@@ -57,7 +57,7 @@ function Navbar() {
           <img
             src="/images/logo.png"
             alt="Latent Homes Logo"
-            style={{ width: '120px', height: '120px', objectFit: 'contain', marginTop: '20px' }}
+            style={{ width: '120px', height: '120px', objectFit: 'contain', marginTop: '20px', marginLeft: '20px' }}
           />
           {/*<span
             style={{

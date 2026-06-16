@@ -16,6 +16,22 @@ const FacebookIcon = () => (
   </svg>
 );
 
+const TikTokIcon = () => (
+  <svg
+    width="22"
+    height="22"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="#c8a96e"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M9 3v10.5a3.5 3.5 0 1 1-3.5-3.5" />
+    <path d="M9 3c1.2 2.5 3.2 4 6 4v3c-2 0-4-.6-6-2v8.5a6.5 6.5 0 1 1-6.5-6.5" />
+  </svg>
+);
+
 const InstagramIcon = () => (
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c8a96e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
@@ -40,15 +56,22 @@ const channels = [
     customIcon: <FacebookIcon />,
   },
   {
+    label: "TikTok",
+    value: "@latenthomes",
+    href: contactConfig.tiktok,
+    isCustom: true,
+    customIcon: <TikTokIcon />,
+  },
+  {
     label: "WhatsApp",
-    value: "+234 800 000 0000",
+    value: "+234 702 518 5401",
     href: contactConfig.whatsapp,
     isCustom: false,
     icon: MessageCircle,
   },
   {
     label: "Phone",
-    value: "+234 800 000 0000",
+    value: "+234 702 518 5401",
     href: contactConfig.phone,
     isCustom: false,
     icon: Phone,

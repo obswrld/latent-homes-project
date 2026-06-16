@@ -7,4 +7,5 @@ export const contactConfig: ContactConfig = {
   phone: "tel:+2348000000000",
   email: "info@latenthomes.com",
   address: "Lagos, Nigeria",
+  tiktok: "https://tiktok.com/@latenthomes",
 };
