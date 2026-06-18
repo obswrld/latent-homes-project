@@ -46,7 +46,7 @@ function Hero() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '60px' }}>
           <div className="w-10 h-px bg-[#c8a96e]/60" />
           <span className="text-white/50 text-[11px] tracking-[4px] italic">
-            Where Legacy Begins
+            Private Properties Investment
           </span>
           <div className="w-10 h-px bg-[#c8a96e]/60" />
         </div>
