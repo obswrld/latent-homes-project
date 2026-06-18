@@ -237,7 +237,7 @@ function Footer() {
           >
             {[
               contactConfig.email,
-              "+234 800 000 0000",
+              "+234 702 518 5401",
               "Lagos · Abuja · London",
             ].map((item) => (
               <p

@@ -17,13 +17,13 @@ function Hero() {
           src="/images/logo.png"
           alt="Latent Homes Logo"
           style={{
-            width: '200px',
-            height: '180px',
-            objectFit: 'contain',
-            marginBottom: '-80px',
-            display: 'block',
-            marginLeft: 'auto',
-            marginRight: 'auto',
+            width: "200px",
+            height: "180px",
+            objectFit: "contain",
+            marginBottom: "-80px",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
           }}
         />
 
@@ -31,9 +31,9 @@ function Hero() {
         <h2
           className="font-black tracking-[10px] mb-4"
           style={{
-            fontSize: '24px',
-            color: '#c8a96e',
-            fontFamily: 'Georgia, serif',
+            fontSize: "24px",
+            color: "#c8a96e",
+            fontFamily: "Georgia, serif",
           }}
         >
           LATENT HOMES
@@ -43,32 +43,48 @@ function Hero() {
         <div className="w-32 h-px bg-gradient-to-r from-transparent via-[#c8a96e] to-transparent mb-4" />
 
         {/* Motto */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '60px' }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "16px",
+            marginBottom: "60px",
+          }}
+        >
           <div className="w-10 h-px bg-[#c8a96e]/60" />
           <span className="text-white/50 text-[11px] tracking-[4px] italic">
-            Private Properties Investment
+            Private Property Investment
           </span>
           <div className="w-10 h-px bg-[#c8a96e]/60" />
         </div>
-        
+
         {/* CTA Buttons */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginTop: '40px' }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "16px",
+            marginTop: "40px",
+          }}
+        >
           <a
             href="#properties"
             onClick={(e) => {
-              e.preventDefault()
-              document.querySelector('#properties')?.scrollIntoView({ behavior: 'smooth' })
+              e.preventDefault();
+              document
+                .querySelector("#properties")
+                ?.scrollIntoView({ behavior: "smooth" });
             }}
             style={{
-              fontFamily: 'Georgia, serif',
-              fontSize: '11px',
-              letterSpacing: '2px',
-              backgroundColor: '#c8a96e',
-              color: '#0d0d0d',
-              padding: '14px 32px',
-              fontWeight: 'bold',
-              textDecoration: 'none',
-              display: 'inline-block',
+              fontFamily: "Georgia, serif",
+              fontSize: "11px",
+              letterSpacing: "2px",
+              backgroundColor: "#c8a96e",
+              color: "#0d0d0d",
+              padding: "14px 32px",
+              fontWeight: "bold",
+              textDecoration: "none",
+              display: "inline-block",
             }}
           >
             EXPLORE PROPERTIES
