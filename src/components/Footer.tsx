@@ -238,7 +238,7 @@ function Footer() {
             {[
               contactConfig.email,
               "+234 702 518 5401",
-              "Lagos · Abuja · London",
+              "Delta · Anambra · Enugu",
             ].map((item) => (
               <p
                 key={item}

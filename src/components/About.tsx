@@ -35,7 +35,7 @@ function About() {
             margin: "0 auto 40px auto",
           }}
         >
-          Trusted property sales and brokerage
+          Your Trusted Real Estate Investment Company In Asaba, Delta State.
         </h2>
 
         {/* Body paragraph */}
@@ -50,11 +50,14 @@ function About() {
             textAlign: "center",
           }}
         >
-          Latent Homes sells premium properties from its own portfolio and acts
-          as a trusted intermediary for customers looking to buy properties from
-          other reputable companies and developers. We bridge the gap between
-          buyers and sellers — handling discovery, verification, negotiation and
-          paperwork so every transaction is transparent, secure and stress-free.
+          Latent Homes is a leading real estate investment and property development company based in Asaba,
+          Delta State, Nigeria. We specialize in helping individuals, families, and investors acquire secure,
+          well-documented land and property in high-growth locations with excellent investment potential.
+          <p>
+            Our mission is to make property ownership simple, transparent, and rewarding by providing carefully selected real estate opportunities backed by verified documentation,
+            strategic locations, and quality infrastructure. Whether you are buying your first plot of land, building your dream home, or expanding your investment portfolio,
+            Latent Homes is committed to guiding you every step of the way.
+          </p>
         </p>
 
         {/* Stats grid */}
