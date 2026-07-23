@@ -145,12 +145,38 @@ function Footer() {
               fontSize: "13px",
               color: "rgba(255,255,255,0.45)",
               lineHeight: "1.8",
+              marginBottom: "28'px",
+              maxWidth: "300px",
+            }}
+          >
+            Visit Our Offices
+          </p>
+          <p
+            style={{
+              fontFamily: "Georgia, serif",
+              fontSize: "13px",
+              color: "rgba(255,255,255,0.45)",
+              lineHeight: "1.8",
+              marginBottom: "19px",
+              maxWidth: "300px",
+            }}
+          >
+            Latent Homes serves clients all accross Nigeria and in the diaspora from our
+            office located at:
+          </p>
+          <p
+            style={{
+              fontFamily: "Georgia, serif",
+              fontSize: "13px",
+              color: "rgba(255,255,255,0.45)",
+              lineHeight: "1.8",
               marginBottom: "28px",
               maxWidth: "300px",
             }}
           >
-            Premium properties and trusted real-estate brokerage. We help buyers
-            find, verify and acquire homes with absolute confidence.
+            No. 284 Nnebisi Road
+            Beside SLOT
+            Asaba, Delta State, Nigeria.
           </p>
 
           {/* Social icons */}
